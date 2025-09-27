@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[FS]Yomi's Cute Dress6",
+  "Author": "Nexus：@Yomi_2023,小红书：@幽咪.",
+  "Version": "1.0.0",
+  "Description": "Converts Yomi Dress to FS.",
+  "UniqueID": "Yomi.Cute.Dress6",
+  "UpdateKeys": [ "Nexus:32075" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "3.0.1"
+  }
+}

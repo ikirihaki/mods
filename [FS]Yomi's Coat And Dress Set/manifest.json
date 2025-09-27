@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[FS][FS]Yomi's Coat And Dress Set",
+  "Author": "Yomi",
+  "Version": "1.0.0",
+  "Description": "Converts Yomi Dress to FS.",
+  "UniqueID": "Yomi.Coat.And.Dress.Set",
+  "UpdateKeys": [ "Nexus:29410" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "3.0.1"
+  }
+}

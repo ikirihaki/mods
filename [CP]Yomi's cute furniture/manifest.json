@@ -1,0 +1,12 @@
+{
+  "Name": "[CP]Yomi's cute furniture",
+  "Author": "Yomi",
+  "Version": "1.0.0",
+  "Description": "Yomi's cute furniture.",
+  "UniqueID": "Yomi.cutefurniture.",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
