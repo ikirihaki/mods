@@ -9,7 +9,7 @@
         "AcceptGift_(O)607": "{{i18n: CFE_Kent_RoastedHazelnuts_{{Random: 1,2}}}}"
       },
       "When": {
-        "ModdedDialogCompat.GiftTaste": "true"
+        "ModdedDialogCompat_GiftTaste": "true"
       }
     },
     {

@@ -1,0 +1,17 @@
+{
+   "Name": "[AT] Chocolatte Cottagecore Furniture",
+   "Author": "chocolatte12",
+   "Version": "1.0.0",
+   "Description": "Adds furniture with Alternative Texture.",
+   "UniqueID": "chocolatte12.CottageFurniture.AT", 
+   "UpdateKeys": ["Nexus:37663"],
+   "Dependencies": [
+    	{
+     		"UniqueID": "sophie.Calcifer",
+      		"IsRequired": true
+    	}
+  	],
+   "ContentPackFor": {
+	  "UniqueID": "PeacefulEnd.AlternativeTextures",
+   }
+}

@@ -1,0 +1,136 @@
+{
+    "Format": "2.8.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/AdditionalWallpaperFlooring",
+            "Entries": {
+                "{{ModId}}_Wallpaper": {
+                    "ID": "{{ModId}}_Wallpaper",
+                    "Texture": "Mods/{{ModId}}/Wallpaper",
+                    "IsFlooring": false,
+                    "Count": 14
+                },
+		"{{ModId}}_Wallpaper2": {
+                    "ID": "{{ModId}}_Wallpaper2",
+                    "Texture": "Mods/{{ModId}}/Wallpaper2",
+                    "IsFlooring": false,
+                    "Count": 14
+                },
+            }
+        },
+	{
+		"Action": "EditData",
+		"Target": "Data/Furniture",
+		"Entries": {
+			"{{ModId}}_Bed1": "{{ModId}}_Bed1/bed/2 4/2 3/1/500/-1/{{i18n:Bed1}}/60/Mods\\{{ModId}}\\Furniture/false/chocolatteFurniture",
+			"{{ModId}}_BedChild": "{{ModId}}_BedChild/bed child/2 4/2 3/1/500/-1/{{i18n:BedChild}}/60/Mods\\{{ModId}}\\Furniture/false/chocolatteFurniture",
+			"{{ModId}}_Bed2": "{{ModId}}_Bed2/bed double/3 4/3 3/1/500/-1/{{i18n:Bed2}}/64/Mods\\{{ModId}}\\Furniture/false/chocolatteFurniture",
+			"{{ModId}}_Chair1": "{{ModId}}_Chair1/couch/2 2/2 1/4/500/-1/{{i18n:Chair1}}/30/Mods\\{{ModId}}\\Furniture/false/chocolatteFurniture",
+			"{{ModId}}_Rug1": "{{ModId}}_Rug1/rug/3 3/3 3/1/500/-1/{{i18n:Rug}}/5/Mods\\{{ModId}}\\Furniture2/false/chocolatteFurniture",
+			"{{ModId}}_Rug2": "{{ModId}}_Rug2/rug/2 3/2 3/4/500/-1/{{i18n:Rug}}/0/Mods\\{{ModId}}\\Furniture2/false/chocolatteFurniture",
+			"{{ModId}}_Couch1": "{{ModId}}_Couch1/couch/3 2/3 1/4/500/-1/{{i18n:Couch}}/0/Mods\\{{ModId}}\\Furniture/false/chocolatteFurniture",
+			"{{ModId}}_Table": "{{ModId}}_Table/table/2 3/2 2/1/500/-1/{{i18n:Table}}/8/Mods\\{{ModId}}\\Furniture2/false/chocolatteFurniture",
+			"{{ModId}}_Table2": "{{ModId}}_Table2/table/2 3/2 2/1/500/-1/{{i18n:Table}}/70/Mods\\{{ModId}}\\Furniture2/false/chocolatteFurniture",
+			"{{ModId}}_Table3": "{{ModId}}_Table3/table/2 2/2 1/2/500/-1/{{i18n:Table}}/56/Mods\\{{ModId}}\\Furniture2/false/chocolatteFurniture",
+			"{{ModId}}_EndTable": "{{ModId}}_EndTable/table/1 2/1 1/2/500/-1/{{i18n:EndTable}}/30/Mods\\{{ModId}}\\Furniture2/false/chocolatteFurniture",
+			"{{ModId}}_Dresser": "{{ModId}}_Dresser/dresser/3 2/3 1/4/500/-1/{{i18n:Dresser}}/32/Mods\\{{ModId}}\\Furniture2/false/chocolatteFurniture",
+			"{{ModId}}_Dresser2": "{{ModId}}_Dresser2/dresser/2 2/2 1/4/500/-1/{{i18n:Dresser}}/72/Mods\\{{ModId}}\\Furniture2/false/chocolatteFurniture",
+			"{{ModId}}_Flowers": "{{ModId}}_Flowers/decor/1 2/1 1/1/500/-1/{{i18n:Flowers}}/39/Mods\\{{ModId}}\\Furniture2/false/chocolatteFurniture",
+			"{{ModId}}_Painting": "{{ModId}}_Painting/painting/2 2/2 2/1/500/-1/{{i18n:Painting}}/53/Mods\\{{ModId}}\\Furniture2/false/chocolatteFurniture",
+			"{{ModId}}_Chair2": "{{ModId}}_Chair2/chair/1 2/1 1/4/500/-1/{{i18n:Chair1}}/26/Mods\\{{ModId}}\\Furniture/false/chocolatteFurniture",
+
+			"{{ModId}}_Bed1p": "{{ModId}}_Bed1p/bed/2 4/2 3/1/500/-1/{{i18n:Bed1}}/60/Mods\\{{ModId}}\\FurnitureP/false/chocolatteFurniture",
+			"{{ModId}}_BedChildp": "{{ModId}}_BedChildp/bed child/2 4/2 3/1/500/-1/{{i18n:BedChild}}/60/Mods\\{{ModId}}\\FurnitureP/false/chocolatteFurniture",
+			"{{ModId}}_Bed2p": "{{ModId}}_Bed2p/bed double/3 4/3 3/1/500/-1/{{i18n:Bed2}}/64/Mods\\{{ModId}}\\FurnitureP/false/chocolatteFurniture",
+			"{{ModId}}_Chair1p": "{{ModId}}_Chair1p/couch/2 2/2 1/4/500/-1/{{i18n:Chair1}}/30/Mods\\{{ModId}}\\FurnitureP/false/chocolatteFurniture",
+			"{{ModId}}_Rug1p": "{{ModId}}_Rug1p/rug/3 3/3 3/1/500/-1/{{i18n:Rug}}/5/Mods\\{{ModId}}\\FurnitureP2/false/chocolatteFurniture",
+			"{{ModId}}_Rug2p": "{{ModId}}_Rug2p/rug/2 3/2 3/4/500/-1/{{i18n:Rug}}/0/Mods\\{{ModId}}\\FurnitureP2/false/chocolatteFurniture",
+			"{{ModId}}_Couch1p": "{{ModId}}_Couch1p/couch/3 2/3 1/4/500/-1/{{i18n:Couch}}/0/Mods\\{{ModId}}\\FurnitureP/false/chocolatteFurniture",
+			"{{ModId}}_Tablep": "{{ModId}}_Tablep/table/2 3/2 2/1/500/-1/{{i18n:Table}}/8/Mods\\{{ModId}}\\FurnitureP2/false/chocolatteFurniture",
+			"{{ModId}}_Table2p": "{{ModId}}_Table2p/table/2 3/2 2/1/500/-1/{{i18n:Table}}/70/Mods\\{{ModId}}\\FurnitureP2/false/chocolatteFurniture",
+			"{{ModId}}_Table3p": "{{ModId}}_Table3p/table/2 2/2 1/2/500/-1/{{i18n:Table}}/56/Mods\\{{ModId}}\\FurnitureP2/false/chocolatteFurniture",
+			"{{ModId}}_EndTablep": "{{ModId}}_EndTablep/table/1 2/1 1/2/500/-1/{{i18n:EndTable}}/30/Mods\\{{ModId}}\\FurnitureP2/false/chocolatteFurniture",
+			"{{ModId}}_Dresserp": "{{ModId}}_Dresserp/dresser/3 2/3 1/4/500/-1/{{i18n:Dresser}}/32/Mods\\{{ModId}}\\FurnitureP2/false/chocolatteFurniture",
+			"{{ModId}}_Dresser2p": "{{ModId}}_Dresser2p/dresser/2 2/2 1/4/500/-1/{{i18n:Dresser}}/72/Mods\\{{ModId}}\\FurnitureP2/false/chocolatteFurniture",
+			"{{ModId}}_Paintingp": "{{ModId}}_Paintingp/painting/2 2/2 2/1/500/-1/{{i18n:Painting}}/53/Mods\\{{ModId}}\\FurnitureP2/false/chocolatteFurniture",
+			"{{ModId}}_Chair2p": "{{ModId}}_Chair2p/chair/1 2/1 1/4/500/-1/{{i18n:Chair1}}/26/Mods\\{{ModId}}\\FurnitureP/false/chocolatteFurniture",
+
+			"{{ModId}}_Bed1b": "{{ModId}}_Bed1p/bed/2 4/2 3/1/500/-1/{{i18n:Bed1}}/60/Mods\\{{ModId}}\\FurnitureB/false/chocolatteFurniture",
+			"{{ModId}}_BedChildb": "{{ModId}}_BedChildp/bed child/2 4/2 3/1/500/-1/{{i18n:BedChild}}/60/Mods\\{{ModId}}\\FurnitureB/false/chocolatteFurniture",
+			"{{ModId}}_Bed2b": "{{ModId}}_Bed2p/bed double/3 4/3 3/1/500/-1/{{i18n:Bed2}}/64/Mods\\{{ModId}}\\FurnitureB/false/chocolatteFurniture",
+			"{{ModId}}_Chair1b": "{{ModId}}_Chair1p/couch/2 2/2 1/4/500/-1/{{i18n:Chair1}}/30/Mods\\{{ModId}}\\FurnitureB/false/chocolatteFurniture",
+			"{{ModId}}_Rug1b": "{{ModId}}_Rug1p/rug/3 3/3 3/1/500/-1/{{i18n:Rug}}/5/Mods\\{{ModId}}\\FurnitureB2/false/chocolatteFurniture",
+			"{{ModId}}_Rug2b": "{{ModId}}_Rug2p/rug/2 3/2 3/4/500/-1/{{i18n:Rug}}/0/Mods\\{{ModId}}\\FurnitureB2/false/chocolatteFurniture",
+			"{{ModId}}_Couch1b": "{{ModId}}_Couch1p/couch/3 2/3 1/4/500/-1/{{i18n:Couch}}/0/Mods\\{{ModId}}\\FurnitureB/false/chocolatteFurniture",
+			"{{ModId}}_Tableb": "{{ModId}}_Tablep/table/2 3/2 2/1/500/-1/{{i18n:Table}}/8/Mods\\{{ModId}}\\FurnitureB2/false/chocolatteFurniture",
+			"{{ModId}}_Table2b": "{{ModId}}_Table2p/table/2 3/2 2/1/500/-1/{{i18n:Table}}/70/Mods\\{{ModId}}\\FurnitureB2/false/chocolatteFurniture",
+			"{{ModId}}_Table3b": "{{ModId}}_Table3p/table/2 2/2 1/2/500/-1/{{i18n:Table}}/56/Mods\\{{ModId}}\\FurnitureB2/false/chocolatteFurniture",
+			"{{ModId}}_EndTableb": "{{ModId}}_EndTablep/table/1 2/1 1/2/500/-1/{{i18n:EndTable}}/30/Mods\\{{ModId}}\\FurnitureB2/false/chocolatteFurniture",
+			"{{ModId}}_Dresserb": "{{ModId}}_Dresserp/dresser/3 2/3 1/4/500/-1/{{i18n:Dresser}}/32/Mods\\{{ModId}}\\FurnitureB2/false/chocolatteFurniture",
+			"{{ModId}}_Dresser2b": "{{ModId}}_Dresser2p/dresser/2 2/2 1/4/500/-1/{{i18n:Dresser}}/72/Mods\\{{ModId}}\\FurnitureB2/false/chocolatteFurniture",
+			"{{ModId}}_Paintingb": "{{ModId}}_Paintingp/painting/2 2/2 2/1/500/-1/{{i18n:Painting}}/53/Mods\\{{ModId}}\\FurnitureB2/false/chocolatteFurniture",
+			"{{ModId}}_Chair2b": "{{ModId}}_Chair2p/chair/1 2/1 1/4/500/-1/{{i18n:Chair1}}/26/Mods\\{{ModId}}\\FurnitureB/false/chocolatteFurniture",
+
+
+			"{{ModId}}_FurnitureCatalogue": "{{ModId}}_FurnitureCatalogue/decor/1 2/1 1/1/500/-1/{{i18n:Catalogue}}/59/Mods\\{{ModId}}\\Furniture2",
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"Entries": {
+			"{{ModId}}_Catalogue": {
+				"PriceModifierMode": "Stack",
+				"Items": [
+					{
+						"Id": "(F){{ModId}}Furniture",
+						"ItemId": "ALL_ITEMS (F)",
+						"Price": 0,
+						"PerItemCondition": "ITEM_ID_PREFIX Target {{ModId}}_ !ITEM_ID {{ModId}}_FurnitureCatalogue"
+					},
+					{
+						"Id": "(WP){{ModId}}Wallpaper",
+						"ItemId": "ALL_ITEMS (WP)",
+						"Price": 0,
+						"PerItemCondition": "ITEM_ID_PREFIX Target {{ModId}}_"
+					},
+				],
+				"CustomFields": {
+					"HappyHomeDesigner/Catalogue": "true",
+				}
+			}
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"TargetField": [ "Carpenter", "Items" ],
+		"Entries": {
+			"{{ModId}}_Catalogue": {
+				"Id": "{{ModId}}_FurnitureCatalogue",
+				"ItemId": "(F){{ModId}}_FurnitureCatalogue",
+				"Price": 10000,
+			}
+		}
+	},
+	{
+      		"Action": "EditData",
+      		"Target": "sophie.Calcifer/FurnitureActions",
+      		"Entries": {
+        		"(F){{ModId}}_FurnitureCatalogue": {
+          			"TileActions": [
+            				{
+              					"TileAction": "OpenShop {{ModId}}_Catalogue"
+            				}
+          			]
+        		}
+      		}
+    	},
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Wallpaper, Mods/{{ModId}}/Wallpaper2, Mods/{{ModId}}/Furniture, Mods/{{ModId}}/Furniture2, Mods/{{ModId}}/FurnitureFront, Mods/{{ModId}}/FurnitureB, Mods/{{ModId}}/FurnitureB2, Mods/{{ModId}}/FurnitureBFront, Mods/{{ModId}}/FurnitureP, Mods/{{ModId}}/FurnitureP2, Mods/{{ModId}}/FurniturePFront",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        }
+    ]
+}

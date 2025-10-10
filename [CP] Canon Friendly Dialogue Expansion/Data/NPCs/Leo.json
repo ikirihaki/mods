@@ -9,7 +9,7 @@
         "AcceptGift_(O)444": "{{i18n: CFE_Leo_DuckFeather}}"
       },
       "When": {
-        "ModdedDialogCompat.GiftTaste": "true"
+        "ModdedDialogCompat_GiftTaste": "true"
       }
     },
     {
@@ -22,7 +22,7 @@
         "AcceptGift_(O)906": "{{i18n: CFE_Leo_Poi}}"
       },
       "When": {
-        "ModdedDialogCompat.MSGR": "true"
+        "ModdedDialogCompat_MSGR": "true"
       }
     },
     {

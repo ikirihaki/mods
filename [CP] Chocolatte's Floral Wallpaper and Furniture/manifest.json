@@ -1,0 +1,18 @@
+{
+   "Name": "Chocolatte Floral Wallpaper and Furniture",
+   "Author": "chocolatte12",
+   "Version": "1.0.0",
+   "Description": "Adds floral wallpaper and furniture.",
+   "UniqueID": "chocolatte12.FloralWallpaperandFurniture", 
+   "MinimumApiVersion": "3.7.0",
+   "UpdateKeys": ["Nexus:37619"],
+   "Dependencies": [
+    	{
+     		"UniqueID": "sophie.Calcifer",
+      		"IsRequired": true
+    	}
+  	],
+   "ContentPackFor": {
+	  "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

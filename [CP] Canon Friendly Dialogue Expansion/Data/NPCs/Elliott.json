@@ -9,7 +9,7 @@
         "AcceptGift_(O)715": "{{i18n: CFE_Elliott_Lobster}}"
       },
       "When": {
-        "ModdedDialogCompat.GiftTaste": "true"
+        "ModdedDialogCompat_GiftTaste": "true"
       }
     },
     {
@@ -22,7 +22,7 @@
         "AcceptGift_(O)637": "{{i18n: CFE_Elliott_Pomegranate}}"
       },
       "When": {
-        "ModdedDialogCompat.MSGR": "true"
+        "ModdedDialogCompat_MSGR": "true"
       }
     },
     {

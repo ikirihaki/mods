@@ -1,0 +1,102 @@
+{
+    "Format": "2.8.0",
+    "Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/Furniture",
+		"Entries": {
+			"{{ModId}}_Painting2": "{{ModId}}_Painting2/painting/2 2/2 2/1/500/-1/{{i18n:Painting2.DisplayName}}/4/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Rug2": "{{ModId}}_Rug2/rug/2 2/2 2/4/500/-1/{{i18n:Rug2.DisplayName}}/6/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Decal": "{{ModId}}_Decal/painting/1 2/1 2/1/500/-1/{{i18n:Decal.DisplayName}}/14/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Rug4": "{{ModId}}_Rug4/rug/3 2/3 2/2/500/-1/{{i18n:Rug4.DisplayName}}/40/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Dresser1": "{{ModId}}_Dresser1/dresser/2 2/2 1/4/500/-1/{{i18n:Dresser1.DisplayName}}/45/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_ConsoleTable": "{{ModId}}_ConsoleTable/table/2 2/2 1/2/500/-1/{{i18n:ConsoleTable.DisplayName}}/50/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Vanity": "{{ModId}}_Vanity/table/2 3/2 1/1/500/-1/{{i18n:Vanity.DisplayName}}/56/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Table1": "{{ModId}}_Table1/table/2 3/2 2/1/500/-1/{{i18n:Table1.DisplayName}}/58/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Chair1": "{{ModId}}_Chair1/couch/2 2/2 1/4/500/-1/{{i18n:Chair1.DisplayName}}/100/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Dresser2": "{{ModId}}_Dresser2/table/3 2/3 1/1/500/-1/{{i18n:Dresser2.DisplayName}}/109/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_EndTable": "{{ModId}}_EndTable/table/1 2/1 1/2/500/-1/{{i18n:EndTable.DisplayName}}/112/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Decor": "{{ModId}}_Decor/decor/1 1/1 1/2/500/-1/{{i18n:Decor.DisplayName}}/136/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Plant1": "{{ModId}}_Plant1/decor/1 2/1 1/1/500/-1/{{i18n:Plant1.DisplayName}}/118/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Couch1": "{{ModId}}_Couch1/couch/3 2/3 1/4/500/-1/{{i18n:Couch1.DisplayName}}/140/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Bookshelf": "{{ModId}}_Bookshelf/decor/2 3/2 1/1/500/-1/{{i18n:Bookshelf.DisplayName}}/148/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Shelf": "{{ModId}}_Shelf/painting/2 3/2 3/1/500/-1/{{i18n:Shelf.DisplayName}}/156/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Rug5": "{{ModId}}_Rug5/rug/5 4/5 4/2/500/-1/{{i18n:Rug5.DisplayName}}/200/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Rug6": "{{ModId}}_Rug6/rug/5 4/5 4/2/500/-1/{{i18n:Rug6.DisplayName}}/209/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Decal2": "{{ModId}}_Decal2/painting/1 3/1 3/1/500/-1/{{i18n:Decal2.DisplayName}}/218/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Rug7": "{{ModId}}_Rug7/rug/3 4/3 4/2/500/-1/{{i18n:Rug7.DisplayName}}/300/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_TallBookshelf": "{{ModId}}_TallBookshelf/decor/2 4/2 1/1/500/-1/{{i18n:TallBookshelf.DisplayName}}/307/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_Bed": "{{ModId}}_Bed/bed/2 4/2 3/1/500/-1/{{i18n:Bed.DisplayName}}/311/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_BedChild": "{{ModId}}_BedChild/bed child/2 4/2 3/1/500/-1/{{i18n:BedChild.DisplayName}}/311/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_BedDouble": "{{ModId}}_BedDouble/bed/3 4/3 3/1/500/-1/{{i18n:BedDouble.DisplayName}}/380/Mods\\{{ModId}}\\Furniture/true",
+"{{ModId}}_FurnitureCatalogue": "{{ModId}}_FurnitureCatalogue/decor/1 2/1 1/1/500/-1/{{i18n:FurnitureCatalogue.DisplayName}}/114/Mods\\{{ModId}}\\Furniture/true",
+
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"Entries": {
+			"{{ModId}}_Catalogue": {
+				"PriceModifierMode": "Stack",
+				"Items": [
+					{
+						"Id": "(F){{ModId}}Furniture",
+						"ItemId": "ALL_ITEMS (F)",
+						"Price": 0,
+						"PerItemCondition": "ITEM_ID_PREFIX Target {{ModId}}_, !ITEM_ID Target {{ModId}}_FurnitureCatalogue"
+					},
+					{
+						"Id": "(WP){{ModId}}Wallpaper",
+						"ItemId": "ALL_ITEMS (WP)",
+						"Price": 0,
+						"PerItemCondition": "ITEM_ID_PREFIX Target {{ModId}}_"
+					},
+				],
+				"CustomFields": {
+					"HappyHomeDesigner/Catalogue": "true",
+				}
+			}
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"TargetField": [ "Carpenter", "Items" ],
+		"Entries": {
+			"{{ModId}}_Catalogue": {
+				"Id": "{{ModId}}_FurnitureCatalogue",
+				"ItemId": "(F){{ModId}}_FurnitureCatalogue",
+				"Price": 10000,
+			}
+		}
+	},
+	{
+      		"Action": "EditData",
+      		"Target": "sophie.Calcifer/FurnitureActions",
+      		"Entries": {
+        		"(F){{ModId}}_FurnitureCatalogue": {
+          			"TileActions": [
+            				{
+              					"TileAction": "OpenShop {{ModId}}_Catalogue"
+            				}
+          			]
+        		}
+      		}
+    	},
+	{
+		"Action": "EditData",
+		"Target": "sophie.Calcifer/FurnitureOffsets",
+		"Entries": {
+			"(F){{ModId}}_Vanity": "25, -20",
+			"(F){{ModId}}_Dresser2": "45, -25",
+			"(F){{ModId}}_EndTable": "0, -5",
+		}
+	},
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Furniture, Mods/{{ModId}}/FurnitureFront",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        }
+    ]
+}

@@ -9,7 +9,7 @@
         "AcceptGift_(O)554": "{{i18n: CFE_Dwarf_LemonStone}}"
       },
       "When": {
-        "ModdedDialogCompat.GiftTaste": "true"
+        "ModdedDialogCompat_GiftTaste": "true"
       }
     },
     {
@@ -55,7 +55,7 @@
       "LogName": "CFE_Dwarf_Dialogue_Compat.Haywrites",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Dwarf",
-      "When": { "ModdedDialogCompat.Hay": "true" },
+      "When": { "ModdedDialogCompat_Hay": "true" },
       "Entries": {
         //Heart Specific Dialogue
         "summer_Mon10": "{{i18n: CFE_Dwarf_summerMon10}}",

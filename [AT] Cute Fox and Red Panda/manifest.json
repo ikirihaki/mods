@@ -1,0 +1,12 @@
+{
+   "Name": "[AT] Cute Fox and Red Panda",
+   "Author": "Kamikou",
+   "Version": "1.0.5",
+   "Description": "Alternative Textures. Change your horse into a cute fox or red panda!",
+   "UniqueID": "Kamikou.CuteFox_RedPanda",
+   "MinimumApiVersion": "3.0.0",
+   "UpdateKeys": [ "Nexus:13605" ],
+   "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures"
+   }
+}

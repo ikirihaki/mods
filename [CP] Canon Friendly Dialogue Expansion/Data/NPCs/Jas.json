@@ -9,7 +9,7 @@
         "AcceptGift_(O)221": "{{i18n: CFE_Jas_PinkCake}}"
       },
       "When": {
-        "ModdedDialogCompat.GiftTaste": "true"
+        "ModdedDialogCompat_GiftTaste": "true"
       }
     },
     {

@@ -12,7 +12,7 @@
         "AcceptGift_(O)400": "{{i18n: CFE_Demetrius_Strawberry}}"
       },
       "When": {
-        "ModdedDialogCompat.GiftTaste": "true"
+        "ModdedDialogCompat_GiftTaste": "true"
       }
     },
     {
@@ -58,7 +58,7 @@
       "LogName": "CFE_Demetrius_Dialogue_Compat.Haywrites",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Demetrius",
-      "When": { "ModdedDialogCompat.Hay": "true" },
+      "When": { "ModdedDialogCompat_Hay": "true" },
       "Entries": {
         //Heart Specific Dialogue
         "summer_Mon6": "{{i18n: CFE_Demetrius_summerMon6}}",

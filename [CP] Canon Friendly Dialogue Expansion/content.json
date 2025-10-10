@@ -1,5 +1,5 @@
 {
-  "Format": "2.3.0",
+  "Format": "2.8.0",
   "ConfigSchema": { //lets players toggle settings on and off
     "CFE_Abigail": {
       "AllowValues": "true, false, random",
@@ -176,21 +176,26 @@
       "Default": "true",
       "Section": "Dialogue"
     },
-    "CFE_Festivals": {
+    "CFE_Festivals_Add": {
       "AllowValues": "true, false",
       "Default": "true",
-      "Section": "Misc"
+      "Section": "Festivals"
+    },
+    "CFE_Festivals_Replace": {
+      "AllowValues": "true, false",
+      "Default": "False",
+      "Section": "Festivals"
     }
   },
 
   "DynamicTokens": [
     //Tokens for Gift Dialogue Compat
     {
-      "Name": "ModdedDialogCompat.GiftTaste",
+      "Name": "ModdedDialogCompat_GiftTaste",
       "Value": "true" //generally my content should be applied
     },
     {
-      "Name": "ModdedDialogCompat.GiftTaste",
+      "Name": "ModdedDialogCompat_GiftTaste",
       "Value": "{{Random: true, false}}", //randomize applying my content when these mods are present
       "When": {
         "HasMod |contains= PrincessFelicie.UniqueGiftDialoguesExpanded, unfeldspar.More_Specific_Gift_Reaction-Dialogue_Expansion-eng, Kaori_Haruta.More_Specific_Gift_Reaction-Dialoge_Expansion-zh": "true"
@@ -198,11 +203,11 @@
     },
     //Unique Gift Dialogue Compat
     {
-      "Name": "ModdedDialogCompat.UGDE",
+      "Name": "ModdedDialogCompat_UGDE",
       "Value": "true" //generally my content should be applied
     },
     {
-      "Name": "ModdedDialogCompat.UGDE",
+      "Name": "ModdedDialogCompat_UGDE",
       "Value": "{{Random: true, false}}", //randomize applying my content when these mods are present
       "When": {
         "HasMod |contains= PrincessFelicie.UniqueGiftDialoguesExpanded": "true" //use this token option when only UGDE needs accounting for
@@ -210,11 +215,11 @@
     },
     //More Specific Gift Reactions Compat
     {
-      "Name": "ModdedDialogCompat.MSGR",
+      "Name": "ModdedDialogCompat_MSGR",
       "Value": "true" //generally my content should be applied
     },
     {
-      "Name": "ModdedDialogCompat.MSGR",
+      "Name": "ModdedDialogCompat_MSGR",
       "Value": "{{Random: true, false}}", //randomize applying my content when these mods are present
       "When": {
         "HasMod |contains= unfeldspar.More_Specific_Gift_Reaction-Dialogue_Expansion-eng, Kaori_Haruta.More_Specific_Gift_Reaction-Dialoge_Expansion-zh": "true" //use this token option when only MSGR needs accounting for
@@ -222,11 +227,11 @@
     },
     //Haywrite's Dialogue Compat
     {
-      "Name": "ModdedDialogCompat.Hay",
+      "Name": "ModdedDialogCompat_Hay",
       "Value": "true" //generally my content should be applied
     },
     {
-      "Name": "ModdedDialogCompat.Hay",
+      "Name": "ModdedDialogCompat_Hay",
       "Value": "{{Random: true, false}}", //randomize applying my content when these mods are present
       "When": {
         "HasMod |contains= silver.haywrite.dialogue": "true" //use this token option only for Haywrite's Dialogue!
@@ -234,6 +239,17 @@
     },
 
     //Festival Compat
+    {
+      "Name": "CFE_Festivals",
+      "Value": "false"
+    },
+    {
+      "Name": "CFE_Festivals",
+      "Value": "true",
+      "When": {
+        "Query: '{{CFE_Festivals_Add}}' = 'true' OR '{{CFE_Festivals_Replace}}' = 'true'": true
+      }
+    },
     {
       "Name": "SyncedRandom",
       "Value": "{{Random: True, False |key=CFE_SyncedRandom}}" //used for syncing edits to CFE's festival dialogue. Other mods can also sync any compatibility edits in their own code by copying this token and key and including it in their content.json
@@ -816,12 +832,20 @@
       }
     },
     {
-      "LogName": "CFE_FestivalAlt_Include",
+      "LogName": "CFE_FestivalAdd_Include",
       "Action": "Include",
       "FromFile": "Data/Festivals/Fest_True.json",
       "When": {
         "Year": "3, 4",
-        "CFE_Festivals": "true"
+        "CFE_Festivals_Add": "true"
+      }
+    },
+    {
+      "LogName": "CFE_FestivalChanged_Include",
+      "Action": "Include",
+      "FromFile": "Data/Festivals/Fest_True.json",
+      "When": {
+        "CFE_Festivals_Replace": "true"
       }
     },
     {
@@ -831,7 +855,7 @@
       "When": {
         "SyncedRandom": "True",
         "Year |contains= 1, 2, 3, 4": false,
-        "CFE_Festivals": "true"
+        "CFE_Festivals_Add": "true"
       }
     },
     {

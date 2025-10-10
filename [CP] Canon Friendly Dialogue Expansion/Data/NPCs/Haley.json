@@ -9,7 +9,7 @@
         "AcceptGift_(O)610": "{{i18n: CFE_Haley_FruitSalad}}" //UGDE does not currently add this key, but it seemed silly to add a whole second block for one line. Maybe this will spark their author to add the line haha
       },
       "When": {
-        "ModdedDialogCompat.GiftTaste": "true"
+        "ModdedDialogCompat_GiftTaste": "true"
       }
     },
     {
